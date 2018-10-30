@@ -1,0 +1,26 @@
+.global{
+   border:2px solid black;
+   height: 1000px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.contener{
+    border:2px solid red;
+    width: 500px;
+    height: 500px;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    animation-name:scrol;
+    animation-duration: 4s; /*infinite*/
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
+@keyframes scrol{
+    0%{top: 500px;}
+    25%{top:200px;}
+    50%{}
+    75%{}
+    100%{}
+}
